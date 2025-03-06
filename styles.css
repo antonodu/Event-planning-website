@@ -148,7 +148,7 @@ body {
   /*ABOUT*/
     /* Header Section */
     .header {
-      background: url('./assets/about-hero.png') no-repeat center center/cover;
+      background: url('./assets/about-hero.jpg') no-repeat center center/cover;
       height: 600px;
       display: flex;
       align-items: center;
@@ -202,7 +202,6 @@ body {
     }
 
     h2 {
-      color: #006d6d;
       font-size: 28px;
       margin-bottom: 20px;
     }
@@ -260,6 +259,17 @@ body {
     .leader-card p {
       font-size: 14px;
       color: #777;
+    }
+
+    /* MEDIA */
+    .header-one {
+      background: url('./assets/media.jpeg') no-repeat center center/cover;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
     }
 
     /* Footer */
@@ -368,6 +378,15 @@ body {
     }
 
     /*CONTACT*/
+    .contact-header {
+      background: url('./assets/contact-header.jpg') no-repeat center center/cover;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
+    }
     .contact {
     display: flex;
     justify-content: center;
