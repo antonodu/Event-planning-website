@@ -39,9 +39,11 @@
         margin-left: 20px;
     }
 
-    .contact-info {
-        display: flex;
+    #contact-section {
+
     }
+  
+   
 
     iframe {
         width: 500px;
