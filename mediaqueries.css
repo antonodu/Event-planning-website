@@ -1,0 +1,68 @@
+@media (max-width:768px){
+    .navigation-links{
+        position:fixed;
+        top:0;
+        right:0;
+        width:280px;
+        height:100vh;
+        background:#1B2631;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        transform:translateX(100%);
+        transition:transform .4s ease;
+        z-index:2000;
+    }
+
+    .navigation-links.active{
+        transform:translateX(0);
+    }
+
+    .hamburger{
+        display:flex;
+        flex-direction:column;
+        cursor:pointer;
+        z-index:2001;
+    }
+
+    .services-description {
+        font-size: 0.875rem;
+    }
+
+    .services-img img {
+        height: 290px;
+    }
+
+    .benefits-grid {
+        margin-left: 20px;
+    }
+
+    .contact-info {
+        display: flex;
+    }
+
+    iframe {
+        width: 500px;
+    }
+
+    .footer-content {
+        font-size: 12px;
+    }
+
+    .footer-col p {
+        font-size: 13px;
+        max-width: 300px;
+    }
+
+    .footer-bottom {
+        font-size: 11px;
+    }
+
+    .socials {
+        font-size: 14px;
+    }
+}
+
+ 

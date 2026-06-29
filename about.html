@@ -4,36 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Koordinates Intercontinental</title>
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+<!-- Filled Icons -->
+<link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+<!-- Brand Icons -->
+<link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+</head>
 </head>
 <body>
      <!-- Navigation Section -->
-   <nav>
-    <div class="logo">
-      <img src="./assets/logo.png" alt="Koordinates Intercontinental Links Ltd" a href="index.html">
-    </div>
-    <ul>
+      <nav id="navigation-bar">
+    <a href="index.html" class="logo">
+        <img src="./assets/logo.png" alt="Koordinates Intercontinental Links Ltd" >
+      </a>
+    <ul class="navigation-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="media.html">Media</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
+
+        <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
   </nav>
 
-  <header class="header">
-    <div class="overlay"></div>
-    <div class="header-content">
-      <h2>About</h2>
-    </div>
-  </header>
+
+
+
+
 
    <!-- Main Content -->
-   <div class="container">
-    <section>
-      <div class="two-columns">
-        <div>
-          <h2>About KICL</h2>
-         <p>KICL is new, fresh, rejuvenated and customer-centric business owned by Nigerians, for essentially Nigerians.
+    <section id="about">
+      <div class="overlay">
+        <h2>About Us</h2>
+      </div>
+      </section>
+
+      <section class="about-section">
+
+      <div class="about-container">
+         <div class="about-img">
+          <img src="./assets/about-kicl.png" alt="Koordinates Intercontinental Staff">
+        </div>
+        <div class="about-text">
+          <p>KICL is new, fresh, rejuvenated and customer-centric business owned by Nigerians, for essentially Nigerians.
             Our focus is to take ordinary activities in business and create extraordinary products and services that will not 
             just excite our numerous consumers but will keep them coming back. We have assembled a great team to deliver on these 
             products and services and the comsumers are attesting to our “KICL way” of delivering on our goals. We understand there are
@@ -41,21 +61,51 @@
             societal expectations
         </p>
         </div>
-        <div>
-          <img src="./assets/about-kicl.png" alt="Koordinates Intercontinental Staff">
-        </div>
       </div>
-    </section>
+      </section>
 
-    <section class="values-section">
-      <h3>Our Purpose, Vision, and Values</h3>
-      <p>Our Vision is to achieve a dominant
+
+    <section id="benefits-section">
+      <div class="benefits-text">
+             <h2 class="headings">Why Choose Us?</h2>
+      </div>
+
+      <div class="benefits-paragraph">
+               <p>Our Vision is to achieve a dominant
         position in the hospitality, logistics and
         events management services industry</p>
+
+      </div>
+    
+      <div class="benefits-grid">
+
+
+            <article class="benefits-card">
+              <div class="icon">🎉</div>
+              <h3>End-to-End Event Solutions</h3>
+              <p>We handle everything from planning and coordination to décor, logistics, and catering, allowing you to enjoy your event stress-free.</p>
+            </article>
+            
+
+           <article class="benefits-card">
+              <div class="icon">🤝</div>
+              <h3>Trusted by Clients</h3>
+              <p>Our commitment to excellence has earned us lasting relationships with individuals, organizations, and businesses across Nigeria.</p>
+            </article>
+
+             <article class="benefits-card">
+             <div class="icon">✨</div>
+              <h3>Certificates</h3>
+              <p>Every event is unique. We work closely with our clients to create personalized menus, décor, and event concepts that reflect their style and goals.</p>
+            </article>
+
+      
+          </div>
+  
     </section>
 
-    <section>
-      <h2>Meet Our Leaders</h2>
+    <section id="leaders-section">
+      <h2 class="headings">Meet Our Leaders</h2>
       <div class="leaders">
         <div class="leader-card">
           <img src="https://via.placeholder.com/150" alt="Leader">
@@ -103,26 +153,66 @@
   </div>
 
   <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-      <div>
-        <h4>Useful Links</h4>
-        <ul>
-          <li><a href="#">Our Sectors</a></li>
-          <li><a href="#">Sustainability</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Get in Touch</h4>
-        <p>Koordinates Intercontinental Ltd<br>Plot 104 Oduduwa Crescent, GRA Ikeja, Lagos.</p>
-        <p>Email: koordinter@gmail.com</p>
-      </div>
-      <div class="logo">
-        <img src="./assets/logo.png" alt="Koordinates Intercontinental Links Ltd">
-      </div>
+  <!-- Footer -->
+  <section id="footer" class="reveal active">
+
+        <div class="footer-content">
+            
+    <div class="footer-col">
+      <h3 class="logo">Koordinates Intercontinental</h3>
+       <p>
+        Creating memorable events through exceptional catering, professional event management, and elegant design in and across Nigeria.
+      </p>
     </div>
-  </footer>
+
+   
+<div class="footer-col">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+    </div>
     
+  <div class="footer-col">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="services.html">Catering</a></li>
+        <li><a href="services.html">Events</a></li>
+        <li><a href="services.html">Interior Design</a></li>
+        
+      </ul>
+    </div>
+   
+         <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:koordinter@gmail.com">koordinter@gmail.com</a></li>
+        <li>Plot 104 Oduduwa Crescent, GRA Ikeja, Lagos</li>
+        <li><a href="#">+234 XXX XXX XXX</a></li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+  <div class="footer-bottom">
+     <p>© 2026 Koordinates Intercontinental Links Ltd. All rights reserved. | Website developed by   <a href="https://antonodu.netlify.app/">Anthony Odumodu</a></p>
+ 
+     <div class="socials">
+      <a href="https://instagram.com" target="_blank" aria-label="instagram"><i class="bx bxl-instagram"></i></a>
+      <a href="https://x.com/" target="_blank" aria-label="instagram"><i class="bxl bx-twitter-x"></i></a>
+      <a href="https://y" target="_blank" aria-label="instagram"><i class="bxl bx-whatsapp"></i></a>
+    </div>
+
+    </div>
+
+     </section>
+     <script src="script.js"></script>
 </body>
 </html>

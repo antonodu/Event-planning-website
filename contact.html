@@ -4,75 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Koordinates Intercontinental</title>
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+<!-- Filled Icons -->
+<link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+<!-- Brand Icons -->
+<link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+</head>
 </head>
 <body>
       <!-- Navigation Section -->
-   <nav>
-    <div class="logo">
-      <img src="./assets/logo.png" alt="Koordinates Intercontinental Links Ltd" a href="index.html">
-    </div>
-    <ul>
+   <nav id="navigation-bar">
+    <a href="index.html" class="logo">
+        <img src="./assets/logo.png" alt="Koordinates Intercontinental Links Ltd" >
+      </a>
+    <ul class="navigation-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="media.html">Media</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
+
+        <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
   </nav>
 
-  <header class="header">
-    <div class="overlay"></div>
-    <div class="header-content">
-      <h2>Contact Us</h2>
-    </div>
-  </header>
-
-  <section class="contact">
-    <div class="form-container">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" aria-label="Enter your name" required>
-            </div>
-
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" aria-label="Enter your email" required>
-            </div>
-
-            <div>
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" rows="5" aria-label="Enter your message" required></textarea>
-            </div>
-
-            <div>
-                <button type="submit" aria-label="Submit Form">Submit</button>
-            </div>
-            
-        </form>
-    </div>
+<section class="contact-hero">
+  <div class="overlay">
+    <h2>Contact Us</h2>
+  </div>
 </section>
 
-<!-- Footer -->
-<footer>
-  <div class="footer-container">
-    <div>
-      <h4>Useful Links</h4>
-      <ul>
-        <li><a href="#">Our Sectors</a></li>
-        <li><a href="#">Sustainability</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-      </ul>
+<section id="contact-section">
+  <div class="contact-info">
+    <div class="info-item">
+      <i class="bx bx-phone"></i>
+
+      <div>
+        <h4>Phone</h4>
+        <p>+234 XXX XXX XXXX</p>
+      </div>
+
+      <div class="info-item">
+        <i class="bx bx-envelope-open"></i>
+
+      <div>
+        <h4>Email</h4>
+        <p>info@koordinates.com</p>
+      </div>
+
+       <div class="info-item">
+        <i class="bx bx-location"></i>
+
+        <div>
+            <h4>Plot 104 Oduduwa Crescent</h4>
+            <p>GRA Ikeja, Lagos</p>
+        </div>
     </div>
-    <div>
-      <h4>Get in Touch</h4>
-      <p>Koordinates Intercontinental Ltd<br>Plot 104 Oduduwa Crescent, GRA Ikeja, Lagos.</p>
-      <p>Email: koordinter@gmail.com</p>
-    </div>
-    <div class="logo">
-      <img src="./assets/logo.png" alt="Koordinates Intercontinental Links Ltd">
     </div>
   </div>
-</footer>
+</div>
+
+  <form class="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" aria-label="Enter your name" required>
+
+     <label for="email">Email:</label>
+    <input type="email" name="email" id="email" aria-label="Enter your email" required>
+
+     <label for="message">Message:</label>
+    <textarea name="text" id="message" rows="5" aria-label="Enter your message" required></textarea>
+
+    <button type="submit" aria-label="Submit Form">Send Message</button>
+  </form>
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.555023187567!2d3.3446668099769914!3d6.577702293388299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b920533abcbd1%3A0x5840abfea24583bd!2s104%20Oduduwa%20Cres%2C%20Ikeja%20GRA%2C%20Ikeja%20101233%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2suk!4v1782186249899!5m2!1sen!2suk" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+</section>
+
+
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+  <section id="footer" class="reveal active">
+
+        <div class="footer-content">
+            
+    <div class="footer-col">
+      <h3 class="logo">Koordinates Intercontinental</h3>
+       <p>
+        Creating memorable events through exceptional catering, professional event management, and elegant design in and across Nigeria.
+      </p>
+    </div>
+
+   
+     <div class="footer-col">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="contact.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="gallery.html">Contact</a></li>
+
+      </ul>
+    </div>
+
     
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="services.html">Catering</a></li>
+        <li><a href="services.html">Events</a></li>
+        <li><a href="services.html">Interior Design</a></li>
+      </ul>
+    </div>
+
+   
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:koordinter@gmail.com">koordinter@gmail.com</a></li>
+        <li>Plot 104 Oduduwa Crescent, GRA Ikeja, Lagos</li>
+        <li><a href="#">+234 XXX XXX XXX</a></li>
+      </ul>
+    </div>
+
+    
+
+  </div>
+
+
+  <div class="footer-bottom">
+    <p>© 2026 Koordinates Intercontinental Links Ltd. All rights reserved. | Website developed by   <a href="https://antonodu.netlify.app/">Anthony Odumodu</a></p>
+ 
+     <div class="socials">
+      <a href="https://instagram.com" target="_blank" aria-label="instagram"><i class="bx bxl-instagram"></i></a>
+      <a href="https://x.com/" target="_blank" aria-label="instagram"><i class="bxl bx-twitter-x"></i></a>
+      <a href="https://y" target="_blank" aria-label="whatsapp"><i class="bxl bx-whatsapp"></i></a>
+    </div>
+
+    </div>
+
+     </section>
+    
+     <script src="script.js"></script>
 </body>
 </html>
